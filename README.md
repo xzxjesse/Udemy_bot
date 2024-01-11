@@ -5,9 +5,8 @@ Este repositório contém o código-fonte de estudos relacionados ao curso "Apre
 ## Sobre o Curso
 
 - **Título do Curso:** Aprenda a Criar Bot de Atendimento no WhatsApp Python e PHP
-- **Instrutor:** Victor Souza
 - **Plataforma:** Udemy
-- **Link do Curso:** [https://www.udemy.com/course/aprenda-a-criar-bot-de-atendimento-no-whatsapp-python-e-php/](https://www.udemy.com/course/aprenda-a-criar-bot-de-atendimento-no-whatsapp-python-e-php/)
+- **Link do Curso:** [Crie BOT de Atendimento no WhatsApp](https://www.udemy.com/course/aprenda-a-criar-bot-de-atendimento-no-whatsapp-python-e-php/)
 
 ## Descrição do Curso
 
