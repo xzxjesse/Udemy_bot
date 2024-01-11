@@ -63,14 +63,29 @@ def bot():
         
     #capturar mensagem do contato
         
-        todas_as_mensagens = driver.find_elements(By.CLASS_NAME,msg_cliente)
+        #API
+        todas_as_mensagens = driver.find_elements(By.CLASS_NAME, msg_cliente)
+        
         todas_as_mensagens_texto = [e.text for e in todas_as_mensagens]
         mensagens = todas_as_mensagens_texto[-1]
         print(mensagens)
-        time.sleep(2)      
+        time.sleep(2)  
+        
+    #responer o contato
+    
+        #API
+        campo_de_texto = driver.find_element(By.XPATH, caixa_msg)
+        
+        campo_de_texto.click()
+        time.sleep(1)
+        campo_de_texto.send_keys('Olá aqui é o Bot', Keys.ENTER)    
+    
+    #fechar o contato
+    
+        webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
         
     except:
-        print('ola')
+        print('Aguardando novas mensagens...')
         
 while True:
     bot()
